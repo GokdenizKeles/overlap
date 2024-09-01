@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lexend";
+  }
+  .container {
+    background-color:black;
+    margin-inline: auto;
+    text-align: center;
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin-left: 80px;
+  }
+  .container div:nth-child(1) {
+    background: rgba(231, 111, 81, 0.9);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 155px;
+    left: 135px;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400;
+   color: #fff;
+   padding-top: 70px;
+  }
+  .container div:nth-child(2) {
+    background: rgba(1, 138, 223, 0.9);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 155px;
+    left: 265px;
+    z-index: 1;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400;
+   color: #fff;
+   padding-top: 70px;
+  }
+  .container div:nth-child(3) {
+    width: 200px;
+   height: 200px;
+background: rgba(233, 196, 106, 0.9);
+  border-radius: 50%;
+  position: absolute;
+  top: 245px;
+  left: 195px;
+  z-index: 2;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 400;
+ color: #fff;
+ padding-top: 70px;
+}
+.container-a {
+  background-color: black;
+  margin-inline: auto;
+  text-align: center;
+  position: relative;
+  width: 600px;
+  height: 600px;
+   margin-left: 400px;
+   margin-top: 60px;
+   
+  }
+.container-a div:nth-child(1) {
+  background: rgba(231, 111, 81, 0.9);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 155px;
+  left: 135px;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 400;
+ color: #fff;
+ padding-top: 70px;
+  transition:  transform 2s;
+
+}
+.container-a div:nth-child(2) {
+  background: rgba(1, 138, 223, 0.9);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 155px;
+  left: 265px;
+  z-index: 1;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 400;
+ color: #fff;
+ padding-top: 70px;
+ transition:  transform 2s;
+}
+.container-a div:nth-child(3) {
+  width: 200px;
+ height: 200px;
+background: rgba(233, 196, 106, 0.9);
+border-radius: 50%;
+position: absolute;
+top: 245px;
+left: 195px;
+z-index: 2;
+font-size: 40px;
+line-height: 50px;
+font-weight: 400;
+color: #fff;
+padding-top: 70px;
+transition: transform 2s;
+}
+.ffa {
+  display: inline-block;
+}
+.container-a div:hover {
+  z-index: 3;
+  transform: rotate(360deg) scale(1.3);
+  
+}
